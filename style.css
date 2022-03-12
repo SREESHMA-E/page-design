@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #d3d3d3;
+  box-sizing: 600px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container{
+  display: flex;
+  align-content: center;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-left: 550px;
+  margin-top: 150px;
+  background-color: #fff;
+  height: 400px;
+  width: 330px;
+  border-radius: 10px;
+  font-size: 12px;
+  box-shadow:20px  20px 0px  darkgray;
+}
+
+.form-wrap{
+  padding: 10px;
+}
+
+.form-wrap .btn{
+      line-height: 20px;
+      padding: 10px 30px;
+      width: 100%;
+      margin-top: 10px;
+      background-color: rgb(46, 228, 100);
+      color: #000;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      
+}
+
+.form-wrap .btn:hover{
+  background-color: rgb(7, 109, 53);
+}
+
+.form-wrap .checked{
+  line-height: 30px;
+}
+
+.box{
+  background-color: #f7f2f2;
+  width: 100%;
+  height: 25%;
+  border-radius: 10px;
+}
+
+.box p{
+  font-weight:bold;
+  padding: 10px;
+}
+
+.box .btn1{
+  margin-left: 5px;
+  background-color: rgba(245, 240, 240, 0.699);
+  width: 55%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.box .btn2{
+  margin-left: 5px;
+  background-color: #fff;
+  width: 35%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#footer .btn3 {
+      line-height: 20px;
+      padding: 10px 30px;
+      width: 100%;
+      background-color: rgb(8, 97, 133);
+      border: none;
+      outline: none;
+      border-radius: 5px;
+}
+
+#footer .btn3:hover{
+  background-color: rgb(20, 20, 223);
+}
+
